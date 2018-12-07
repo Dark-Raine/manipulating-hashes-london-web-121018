@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
+fullList = []
+fullList << groceries.values
+fullList.flatten!
 
-  
-
+fullList
 end
